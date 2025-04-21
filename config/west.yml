@@ -26,8 +26,8 @@ manifest:
       url-base: https://github.com/urob
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    # - name: carrefinho                            # <--- add this
-    #   url-base: https://github.com/carrefinho     # <--- and this
+    - name: carrefinho                            # <--- add this
+      url-base: https://github.com/carrefinho     # <--- and this
 
   projects:
     - name: zmk
@@ -45,9 +45,9 @@ manifest:
       path: modules/zmk/leader-key
     - name: zmk-tri-state
       path: modules/zmk/tri-state
-    # - name: prospector-zmk-module                 # <--- and these
-    #   remote: carrefinho                          # <---
-    #   revision: main                              # <---
+    - name: prospector-zmk-module                 # <--- and these
+      remote: carrefinho                          # <---
+      revision: main                              # <---
 
     # Temporarily overload Zephyr until
     # https://github.com/zmkfirmware/zephyr/pull/40 is merged.
