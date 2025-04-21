@@ -4,5 +4,8 @@
 #define X_LB  &none     // thumb row, left
 #define X_RB  &none  // thumb row, right
 
+/* activate bluetooth */
+#define CONFIG_WIRELESS 1
+
 /* source the main keymap */
 #include "base.keymap"
