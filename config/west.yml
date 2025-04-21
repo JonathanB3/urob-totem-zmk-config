@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: urob
       url-base: https://github.com/urob
+    - name: carrefinho                            # <--- add this
+      url-base: https://github.com/carrefinho     # <--- and this
   projects:
     - name: zmk
       remote: urob
@@ -12,5 +14,8 @@ manifest:
     - name: zmk-helpers
       remote: urob
       revision: main
+    - name: prospector-zmk-module                 # <--- and these
+      remote: carrefinho                          # <---
+      revision: main                              # <---
   self:
     path: config
